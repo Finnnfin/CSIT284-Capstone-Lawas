@@ -9,7 +9,7 @@ final List<FoundItem> sampleItems = [
     location: 'School Library',
     status: 'FOUND',
     date: DateTime(2026, 11, 18),
-    imageUrl: 'https://unsplash.com/photos/a-black-leather-case-with-a-key-wallet-and-other-items-in-it-1cFRvjU9zzc?utm_source=chatgpt.com',
+    imageUrl: 'https://images.unsplash.com/photo-1579014134953-1580d7f123f3?w=600',
   ),
 
   FoundItem(
@@ -19,7 +19,7 @@ final List<FoundItem> sampleItems = [
     location: 'School Cafeteria',
     status: 'LOST',
     date: DateTime(2026, 11, 17),
-    imageUrl: 'https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1750327085962-c9705d9d05c4?w=600',
   ),
 
   FoundItem(
@@ -29,7 +29,7 @@ final List<FoundItem> sampleItems = [
     location: 'Room 204',
     status: 'FOUND',
     date: DateTime(2026, 11, 16),
-    imageUrl: 'https://images.unsplash.com/photo-1582139329536-e7284fece509?w=600',
+    imageUrl: 'https://th.bing.com/th/id/OIP.YV08KKpq87octawBWnDagQHaDY?w=314&h=159&c=7&r=0&o=7&pid=1.7&rm=3',
   ),
 
   FoundItem(
@@ -39,7 +39,7 @@ final List<FoundItem> sampleItems = [
     location: 'School Gymnasium',
     status: 'LOST',
     date: DateTime(2026, 11, 15),
-    imageUrl: 'https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1573065370939-a6049e64b3d5?w=600',
   ),
 
   FoundItem(
@@ -49,7 +49,7 @@ final List<FoundItem> sampleItems = [
     location: 'Room 105',
     status: 'FOUND',
     date: DateTime(2026, 11, 14),
-    imageUrl: 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600',
+    imageUrl: 'https://th.bing.com/th/id/OIP.0z2lH2SP8ze4EwJiTKhpbwHaHa?w=195&h=195&c=7&r=0&o=7&pid=1.7&rm=3',
   ),
 
   FoundItem(
@@ -59,7 +59,7 @@ final List<FoundItem> sampleItems = [
     location: 'Main Building',
     status: 'LOST',
     date: DateTime(2026, 11, 13),
-    imageUrl: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600',
+    imageUrl: 'https://th.bing.com/th/id/OIP.HUoURca4vT-W6lAbCrxz7QHaEr?w=292&h=184&c=7&r=0&o=7&pid=1.7&rm=3',
   ),
 
   FoundItem(
@@ -69,7 +69,7 @@ final List<FoundItem> sampleItems = [
     location: 'School Entrance',
     status: 'FOUND',
     date: DateTime(2026, 11, 12),
-    imageUrl: 'https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1713542893896-751aa1ebceb5?w=600',
   ),
 
   FoundItem(
@@ -79,7 +79,7 @@ final List<FoundItem> sampleItems = [
     location: 'Computer Laboratory',
     status: 'LOST',
     date: DateTime(2026, 11, 11),
-    imageUrl: 'https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=600',
+    imageUrl: 'https://th.bing.com/th/id/OIP.avznhfpOKWBk8hQFWu_LwQHaHa?w=205&h=205&c=7&r=0&o=7&pid=1.7&rm=3',
   ),
 
   FoundItem(
@@ -89,7 +89,7 @@ final List<FoundItem> sampleItems = [
     location: 'School Hallway',
     status: 'FOUND',
     date: DateTime(2026, 11, 10),
-    imageUrl: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1595332100232-41e9af5896c3?w=600',
   ),
 
   FoundItem(
@@ -99,6 +99,6 @@ final List<FoundItem> sampleItems = [
     location: 'School Library',
     status: 'LOST',
     date: DateTime(2026, 11, 9),
-    imageUrl: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1535982330050-f1c2fb79ff78?w=600',
   ),
 ];

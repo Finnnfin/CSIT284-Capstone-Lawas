@@ -26,31 +26,31 @@ class ItemDetailsScreen extends StatelessWidget {
             // Item Image
             ClipRRect(
               borderRadius: BorderRadius.circular(12),
-              child: item.imageUrl.trim().isNotEmpty
-                  ? Image.network(
-                      item.imageUrl,
-                      width: double.infinity,
-                      height: 220,
-                      fit: BoxFit.cover,
-                      loadingBuilder: (context, child, loadingProgress) {
-                        if (loadingProgress == null) {
-                          return child;
-                        }
+              child: Container(
+                width: double.infinity,
+                height: 220,
+                color: Colors.grey.shade200,
+                child: item.imageUrl.trim().isNotEmpty
+                    ? Image.network(
+                        item.imageUrl,
+                        width: double.infinity,
+                        height: 220,
+                        fit: BoxFit.contain,
+                        loadingBuilder: (context, child, loadingProgress) {
+                          if (loadingProgress == null) {
+                            return child;
+                          }
 
-                        return Container(
-                          width: double.infinity,
-                          height: 220,
-                          color: Colors.grey.shade200,
-                          child: const Center(
+                          return const Center(
                             child: CircularProgressIndicator(),
-                          ),
-                        );
-                      },
-                      errorBuilder: (context, error, stackTrace) {
-                        return _imagePlaceholder();
-                      },
-                    )
-                  : _imagePlaceholder(),
+                          );
+                        },
+                        errorBuilder: (context, error, stackTrace) {
+                          return _imagePlaceholder();
+                        },
+                      )
+                    : _imagePlaceholder(),
+              ),
             ),
 
             const SizedBox(height: 20),
